@@ -8,12 +8,12 @@
   <link rel="dns-prefetch" href="http://example.com">
   <title>lc_note | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="字符串无重复字符的最长子串请从字符串中找出一个最长的不包含重复字符的子字符串，计算该最长子字符串的长度。   示例 1: 123输入: &quot;abcabcbb&quot;输出: 3 解释: 因为无重复字符的最长子串是 &quot;abc&quot;，所以其长度为 3。  示例 2: 123输入: &quot;bbbbb&quot;输出: 1解释: 因为无重复字符的最长子串是 &quot;b&amp;">
+  <meta name="description" content="leetcode刷题笔记,题目带答案。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="lc_note">
 <meta property="og:url" content="http://example.com/2021/04/24/lc-note/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="字符串无重复字符的最长子串请从字符串中找出一个最长的不包含重复字符的子字符串，计算该最长子字符串的长度。   示例 1: 123输入: &quot;abcabcbb&quot;输出: 3 解释: 因为无重复字符的最长子串是 &quot;abc&quot;，所以其长度为 3。  示例 2: 123输入: &quot;bbbbb&quot;输出: 1解释: 因为无重复字符的最长子串是 &quot;b&amp;">
+<meta property="og:description" content="leetcode刷题笔记,题目带答案。">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://img-blog.csdnimg.cn/2020081314253117.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMzA0OTQ5,size_16,color_FFFFFF,t_70#pic_center">
 <meta property="og:image" content="https://img-blog.csdnimg.cn/20200813142744329.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyMzA0OTQ5,size_16,color_FFFFFF,t_70#pic_center">
@@ -35,7 +35,7 @@
 <meta property="og:image" content="https://img-blog.csdnimg.cn/20200823160740280.png#pic_center">
 <meta property="og:image" content="https://img-blog.csdnimg.cn/20200823160727228.png#pic_center">
 <meta property="article:published_time" content="2021-04-24T07:29:35.000Z">
-<meta property="article:modified_time" content="2021-04-24T07:32:05.769Z">
+<meta property="article:modified_time" content="2021-04-24T07:44:21.530Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="java">
 <meta property="article:tag" content="leetcode">
@@ -196,10 +196,11 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h1><h3 id="无重复字符的最长子串"><a href="#无重复字符的最长子串" class="headerlink" title="无重复字符的最长子串"></a>无重复字符的最长子串</h3><p>请从字符串中找出一个最长的不包含重复字符的子字符串，计算该最长子字符串的长度。</p>
-<p> </p>
+        <h1 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h1><h3 id="无重复字符的最长子串"><a href="#无重复字符的最长子串" class="headerlink" title="无重复字符的最长子串"></a>无重复字符的最长子串</h3><p>请从字符串中找出一个最长的不包含重复字符的子字符串，计算该最长子字符串的长度。
+ </p>
 <p>示例 1:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">输入: &quot;abcabcbb&quot;</span><br><span class="line">输出: 3 </span><br><span class="line">解释: 因为无重复字符的最长子串是 &quot;abc&quot;，所以其长度为 3。</span><br></pre></td></tr></table></figure>
+<span id="more"></span>
 
 <p>示例 2:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">输入: &quot;bbbbb&quot;</span><br><span class="line">输出: 1</span><br><span class="line">解释: 因为无重复字符的最长子串是 &quot;b&quot;，所以其长度为 1。</span><br></pre></td></tr></table></figure>
